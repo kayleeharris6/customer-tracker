@@ -1,0 +1,1 @@
+This assignment uses javascript to display customers information 
