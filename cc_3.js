@@ -33,7 +33,7 @@ customers.shift({
 console.log("updated customers:", customers);
 
 customers[0].email = "newemail@gmail.com";
-customers[1].purchases=["grape", "melon"];
+customers[1].purchases.push("grape");
 
 console.log("final customers:", customers);
 
@@ -41,4 +41,5 @@ customers.forEach(customer => {
     console.log(customer.name);
     console.log(customer.email);
     console.log(customer.purchases);
+    console.log("total purchases:", customer.purchases.length);
 });
